@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Librărie Online</title>
+            <style>
+                body
+                {
+                    font-family: 'Itim', cursive;
+                    background-color: #f3e8ff;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .container
+                {
+                    width: 60%;
+                    margin: 50px auto;
+                    background-color: white;
+                    padding: 40px;
+                    border-radius: 20px;
+                    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+                    text-align: center;
+                }
+
+                h1
+                {
+                    font-size: 45px;
+                    text-align: center;
+                    color: #000000;
+                }
+
+                .link-container {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-top: 40px;
+                flex-wrap: wrap;
+                }
+
+                .link-container a {
+                    padding: 20px 40px;
+                    background-color: #cdaeee;
+                    color: #2d0059;
+                    text-decoration: none;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+
+                .link-container a:hover {
+                    background-color: #b794e8;
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                    transform: translateY(-5px);
+                }
+            </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>☆Librarie Online☆</h1>
+            
+            <div class="link-container">
+                <a href="lista_carti.php">Listă cărți</a>
+                <a href="adauga_carte.php">Adaugă carte</a>
+                <a href="lista_autori.php">Listă autori</a>
+                <a href="adauga_autor.php">Adaugă autor</a>
+            </div>
+        </div>
+    </body>
+</html>
