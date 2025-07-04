@@ -1,4 +1,4 @@
-Online Library is a simple CRUD web application built using PHP and MySQL — my very first hands-on experience with PHP.
+Online Library is a simple CRUD web application built using PHP and MySQL, my very first hands-on experience with PHP.
 This project was developed as part of a university course on Database Systems Management.
 
 Through this project, I explored core concepts like:
